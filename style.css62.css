@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    min-height: 100vh;
+    margin: 0;
+}
+nav{
+    background:rgb(203, 113, 255);
+    flex: 0 0 30vh;
+    flex-direction: row;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+.tainer{
+    display: flex;
+    flex: 1;
+}
+.tainer>article{
+    background-color: whitesmoke;
+    flex: 1;
+    order: 1;
+    flex: 0 0 148vh;
+}
+.tainer>aside{
+    flex: 0 0 30vh;
+    background: rgb(203, 113, 255);
+    order: 2;
+}
+header,footer{
+    background: rgb(221, 163, 255);
+    height: 20vh;
+    width: 178vh;
+}
+nav,header,article,aside,footer
+{
+    padding: 1em;
+}
